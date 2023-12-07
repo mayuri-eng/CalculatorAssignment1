@@ -2,7 +2,7 @@ package com.bnt.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class MinMaxRequest {
+public class MinMaxRequest{
 
 	@JsonProperty("numbers")
 	int[] numbers;
@@ -21,6 +21,12 @@ public class MinMaxRequest {
 	@Override
 	public String toString() {
 		return "MinMaxRequest [numbers=" + numbers + "]";
+	}
+
+
+	public MinMaxRequest() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
 
